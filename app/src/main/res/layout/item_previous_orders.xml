@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="340dp"
+    android:layout_marginBottom="@dimen/spacing_xmedium"
+    android:layout_marginLeft="@dimen/spacing_large"
+    android:layout_marginRight="@dimen/spacing_large"
+    android:layout_marginTop="@dimen/spacing_xmedium"
+    app:cardCornerRadius="@dimen/radius_border_button_large">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/spacing_large"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_small"
+            tools:text="aldajo" />
+
+        <TextView
+            android:id="@+id/textView_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_xlarge"
+            tools:text="aldajo" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_products"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/spacing_xmedium"
+                android:layout_weight="1"
+                android:background="@drawable/bg_green_border_button"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Texto"
+                android:textAllCaps="false"
+                android:textColor="@color/customGreen"
+                android:textSize="@dimen/font_large" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_xmedium"
+                android:layout_weight="1"
+                android:background="@drawable/bg_green_button"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Volver a pedir"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/font_large" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
