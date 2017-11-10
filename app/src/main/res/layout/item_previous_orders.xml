@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="340dp"
+    android:layout_height="332dp"
     android:layout_marginBottom="@dimen/spacing_xmedium"
     android:layout_marginLeft="@dimen/spacing_large"
     android:layout_marginRight="@dimen/spacing_large"
@@ -28,6 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/black"
+            android:layout_marginBottom="@dimen/spacing_large"
             android:textSize="@dimen/font_xlarge"
             tools:text="aldajo" />
 
@@ -35,6 +36,7 @@
             android:id="@+id/recyclerView_products"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/spacing_large"
             android:layout_weight="1" />
 
         <LinearLayout

@@ -32,19 +32,9 @@ public class AnotherFragment extends Fragment {
         RecyclerAdapter recyclerAdapter = new RecyclerAdapter();
         recyclerView.setAdapter(recyclerAdapter);
 
-        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
-//        recyclerAdapter.addItem(new Item("25 nov", "Calle 66"));
+        recyclerAdapter.addItem(new Item("Pedidos Anteriores"));
+        recyclerAdapter.addItem(new Item("25 DE NOV", "Calle 66"));
+        recyclerAdapter.addItem(new Item("25 DE NOV", "Calle 66"));
+        recyclerAdapter.addItem(new Item("25 DE NOV", "Calle 66"));
     }
 }
